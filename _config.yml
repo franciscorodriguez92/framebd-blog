@@ -1,0 +1,48 @@
+# Build settings
+markdown: redcarpet
+highlighter: pygments
+
+
+# Site settings
+title: "FrameBD"
+description: > # this means to ignore newlines until "email:"
+   Blog corporativo
+email: frmiguel.rodriguez@gmail.com
+#blog logo
+logo: "/assets/images/logo_negro_3.png"
+# blog cover
+cover: "/assets/images/desktop.JPG"
+
+name: 'Francisco Rodríguez'
+author: 'Francisco Rodríguez'
+author_image: "/assets/images/fran.jpg"
+
+gems: [jekyll-paginate]
+paginate:	5
+paginate_path: "page:num"
+
+url: "http://franciscorodriguez92.github.io/" # the base hostname & protocol for your site
+baseurl: ""
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/PacomiTwit
+    desc: Síguenos en Twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+  - icon:	facebook
+    url:	https://www.facebook.com/franciscomiguel.rodriguezsanchez.9
+    desc: Síguenos en Facebook
+    share_url: //www.facebook.com/sharer.php
+    share_title: ?t=
+    share_link: "&amp;u="
+
+  - icon:	google-plus
+    url:	https://google.com/+divulgame
+    desc:	Añádenos en google+
+    share_url:
+    share_title:
+    share_link:
